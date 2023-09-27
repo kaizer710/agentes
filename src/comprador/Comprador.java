@@ -136,6 +136,8 @@ public class Comprador extends Agent
        }
        public boolean done(){
            return ((etapa == 2 && mejorVendedor == null) || etapa == 4);
+           System.out.println("cambio");
        }
+      
    }
 }
